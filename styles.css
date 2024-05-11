@@ -1,3 +1,21 @@
+.font-barlow {
+  font-family: "barlow", sans-serif;
+}
+
+.font-shareTech {
+  font-family: "Share Tech Mono", monospace;
+}
+
+.darkMode {
+  background-color: #212529;
+  color: #F8F9FA;
+}
+
+.lightMode {
+  background-color: #F8F9FA;
+  color: #212529;
+}
+
 *,
 body {
   margin: 0;
@@ -65,12 +83,4 @@ tt,
 u,
 video {
   transition: all 0.4s ease;
-}
-
-.font-barlow {
-  font-family: "barlow", sans-serif;
-}
-
-.font-shareTech {
-  font-family: "Share Tech Mono", monospace;
 }
