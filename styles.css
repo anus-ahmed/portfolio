@@ -16,12 +16,21 @@
   color: #212529;
 }
 
+.bolt-green {
+  color: #29ff1a;
+}
+
+.bolt-red {
+  color: #e5383b;
+}
+
 *,
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  transition: all 0.1s ease;
 }
 
 body,
@@ -82,5 +91,5 @@ title,
 tt,
 u,
 video {
-  transition: all 0.1s ease;
+  -webkit-font-smoothing: antialiased;
 }
