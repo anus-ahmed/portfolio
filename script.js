@@ -1,9 +1,9 @@
 function checkTheme() {
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('darkMode');
+        document.body.className += 'darkMode';
     }
     else if (window.matchMedia('(prefers-color-scheme: light)').matches) {
-        document.body.classList.add('lightMode');
+        document.body.className += 'lightMode';
     }
 }
 
