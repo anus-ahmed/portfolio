@@ -67,3 +67,11 @@ video {
   font-family: "barlow", sans-serif;
   transition: all 0.4s ease;
 }
+
+.font-barlow {
+  font-family: "barlow", sans-serif;
+}
+
+.font-shareTech {
+  font-family: "Share Tech Mono", monospace;
+}
