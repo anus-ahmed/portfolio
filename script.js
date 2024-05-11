@@ -6,5 +6,4 @@ function checkTheme() {
         document.body.className += 'lightMode';
     }
 }
-
 window.onload = checkTheme;
