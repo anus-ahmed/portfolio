@@ -24,9 +24,11 @@ function checkTheme() {
 function changeTheme(){
     if(document.getElementById('themeSwitcher').checked){
         document.body.className = 'darkMode';
+        document.getElementById('titleName').className += " gradient-heading";
     }
     else{
         document.body.className = 'lightMode';
+        document.getElementById('titleName').classList.remove("gradient-heading");
     }
 };
 
