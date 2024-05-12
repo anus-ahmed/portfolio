@@ -1,10 +1,10 @@
-setInterval(function(){
+setInterval(function () {
     let bolt = document.getElementsByClassName('fa-bolt')[0];
-    if(bolt.classList.contains('bolt-green')){
+    if (bolt.classList.contains('bolt-green')) {
         bolt.classList.remove('bolt-green');
         bolt.classList.add('bolt-blue');
     }
-    else if(bolt.classList.contains('bolt-blue')){
+    else if (bolt.classList.contains('bolt-blue')) {
         bolt.classList.remove('bolt-blue');
         bolt.classList.add('bolt-green');
     }
@@ -23,12 +23,12 @@ function checkTheme() {
     }
 };
 
-function changeTheme(){
-    if(document.getElementById('checkbox').checked){
+function changeTheme() {
+    if (document.getElementById('checkbox').checked) {
         document.body.className = 'darkMode';
         document.getElementById('titleName').className += " gradient-heading";
     }
-    else{
+    else {
         document.body.className = 'lightMode';
         document.getElementById('titleName').classList.remove("gradient-heading");
     }
