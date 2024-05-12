@@ -244,4 +244,10 @@ video {
 }
 .intro-section .sections-list li {
   margin: 0 0 0.5rem 0;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+@media screen and (max-width: 768px) {
+  .h1 {
+    font-size: 3rem;
+  }
+}
