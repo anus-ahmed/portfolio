@@ -8,11 +8,11 @@
 
 .darkMode {
   background-color: #212529;
-  color: #F8F9FA;
+  color: #f8f9fa;
 }
 
 .lightMode {
-  background-color: #F8F9FA;
+  background-color: #f8f9fa;
   color: #212529;
 }
 
@@ -113,6 +113,14 @@
   -webkit-background-clip: text;
   color: #212529;
   -webkit-text-stroke: 4px transparent;
+}
+
+.badge {
+  background-color: #343a40;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  text-align: center;
+  color: #e9ecef;
 }
 
 *,
@@ -234,7 +242,8 @@ video {
   padding: 1rem 1rem;
 }
 
-.intro-section p, .intro-section .location-availability {
+.intro-section p,
+.intro-section .location-availability {
   margin: 1rem 0 0 0;
 }
 .intro-section .location-availability {
@@ -248,6 +257,20 @@ video {
 }
 .intro-section .sections-list li {
   margin: 0 0 0.5rem 0;
+}
+
+.projects-section .project-details {
+  margin: 1rem 0 0 0;
+  padding: 0 0 0 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.projects-section .project-details .proj-title {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
 }
 
 @media screen and (max-width: 768px) {
