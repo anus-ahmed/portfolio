@@ -8,7 +8,7 @@ setInterval(function(){
         bolt.classList.remove('bolt-red');
         bolt.classList.add('bolt-green');
     }
-}, 2000);
+}, 1000);
 
 function checkTheme() {
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
