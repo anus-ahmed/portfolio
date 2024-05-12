@@ -187,4 +187,20 @@ video {
   height: auto;
   margin: 0 auto;
   padding: 1rem 1rem;
+}
+
+.intro-section p, .intro-section .location-availability {
+  margin: 1rem 0 0 0;
+}
+.intro-section .location-availability {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.intro-section .sections-list {
+  list-style: none;
+  margin: 2rem 0 0 0;
+}
+.intro-section .sections-list li {
+  margin: 0 0 0.5rem 0;
 }/*# sourceMappingURL=styles.css.map */
