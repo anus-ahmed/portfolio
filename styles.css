@@ -103,6 +103,14 @@
   color: #2287c9;
 }
 
+.gradient-heading {
+  background: linear-gradient(-45deg, #b2ff20, #e63946, #2f6690, #e63946);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  color: #212529;
+  -webkit-text-stroke: 4px transparent;
+}
+
 *,
 body {
   margin: 0;
