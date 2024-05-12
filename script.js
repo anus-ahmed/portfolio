@@ -14,10 +14,12 @@ function checkTheme() {
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.className += 'darkMode';
         document.getElementById('themeSwitcher').checked = true;
+        document.getElementById('titleName').className += " gradient-heading";
     }
     else if (window.matchMedia('(prefers-color-scheme: light)').matches) {
         document.body.className += 'lightMode';
         document.getElementById('themeSwitcher').checked = false;
+        document.getElementById('titleName').classList.remove("gradient-heading");
     }
 };
 
