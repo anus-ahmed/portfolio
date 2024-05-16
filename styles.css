@@ -1,3 +1,73 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: all ease;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+body,
+html,
+head,
+header,
+footer,
+p,
+i,
+span,
+a,
+object,
+li,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+section,
+table,
+thead,
+th,
+tbody,
+tr,
+td,
+input,
+label,
+button,
+textarea,
+strong,
+aside,
+center,
+dd,
+dl,
+dt,
+em,
+embed,
+iframe,
+big,
+br,
+link,
+meta,
+marquee,
+ol,
+option,
+select,
+small,
+strike,
+title,
+tt,
+u,
+video {
+  -webkit-font-smoothing: antialiased;
+}
+
 .font-barlow {
   font-family: "barlow", sans-serif;
 }
@@ -16,16 +86,14 @@
   color: #212529;
 }
 
-.bolt-green {
-  color: #29ff1a;
+.bolt{
+  animation:animate-bolt 2s infinite;
+  animation-timing-function: ease-in-out;
 }
 
-.bolt-red {
-  color: #e5383b;
-}
-
-.bolt-blue {
-  color: #2287c9;
+@keyframes animate-bolt{
+  0%   { color:#29ff1a; }
+  100% { color:#2287c9; }
 }
 
 .h1 {
@@ -121,76 +189,6 @@
   padding: 0.25rem 0.5rem;
   text-align: center;
   color: #e9ecef;
-}
-
-*,
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-  transition: all ease;
-}
-
-body,
-html {
-  overflow-x: hidden;
-}
-
-body,
-html,
-head,
-header,
-footer,
-p,
-i,
-span,
-a,
-object,
-li,
-ul,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-div,
-section,
-table,
-thead,
-th,
-tbody,
-tr,
-td,
-input,
-label,
-button,
-textarea,
-strong,
-aside,
-center,
-dd,
-dl,
-dt,
-em,
-embed,
-iframe,
-big,
-br,
-link,
-meta,
-marquee,
-ol,
-option,
-select,
-small,
-strike,
-title,
-tt,
-u,
-video {
-  -webkit-font-smoothing: antialiased;
 }
 
 .checkbox {
