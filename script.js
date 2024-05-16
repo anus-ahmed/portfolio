@@ -1,15 +1,3 @@
-setInterval(function () {
-    let bolt = document.getElementsByClassName('fa-bolt')[0];
-    if (bolt.classList.contains('bolt-green')) {
-        bolt.classList.remove('bolt-green');
-        bolt.classList.add('bolt-blue');
-    }
-    else if (bolt.classList.contains('bolt-blue')) {
-        bolt.classList.remove('bolt-blue');
-        bolt.classList.add('bolt-green');
-    }
-}, 1000);
-
 function checkTheme() {
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.className += 'darkMode';
