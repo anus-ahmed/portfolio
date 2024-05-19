@@ -2,46 +2,53 @@ var uiContainer = document.getElementById('projects');
 
 const projects = [
     {
-        "year": "In-development",
+        "year": "in-development",
         "title": "UBL Retail Web Application",
         "descr": "lorem ipsum dolor sit amet",
         "urltitle": "google.com",
         "url": "https://www.google.com/"
     },
     {
-        "year": 2022,
+        "year": 2024,
+        "title": "Ontario Student Funding",
+        "descr": "I have designed and developed the landing page for this website, ensuring full responsiveness across various devices.",
+        "urltitle": "ontariostudentfunding.com",
+        "url": "https://ontariostudentfunding.com/"
+    },
+    {
+        "year": 2023,
         "title": "Foodster Club",
-        "descr": "lorem ipsum dolor sit amet 2",
-        "urltitle": "google.com",
-        "url": "https://www.google.com/"
+        "descr": "I've successfully crafted the entire frontend of this web application based on wireframes, ensuring responsiveness across various devices. Bootstrap, SCSS, and other frontend technologies were leveraged to achieve this outcome.",
+        "urltitle": "foodster.club",
+        "url": "https://portal.foodster.club/"
     },
     {
         "year": 2022,
         "title": "The A-Lyst",
-        "descr": "lorem ipsum dolor sit amet 2",
-        "urltitle": "google.com",
-        "url": "https://www.google.com/"
+        "descr": "This refined ecommerce store has been meticulously crafted on the Shopify platform, integrating the default Dawn theme and featuring customized product and collections pages.",
+        "urltitle": "the-a-lyst.myshopify.com",
+        "url": "https://the-a-lyst.myshopify.com/"
     },
     {
         "year": 2022,
         "title": "Kuchen Kompane",
         "descr": "lorem ipsum dolor sit amet 2",
-        "urltitle": "google.com",
-        "url": "https://www.google.com/"
+        "urltitle": "kuchenkompane.de",
+        "url": "https://kuechenkompane.de/"
     },
     {
         "year": 2022,
         "title": "Kyle Jackie Haircare",
         "descr": "lorem ipsum dolor sit amet 2",
-        "urltitle": "google.com",
-        "url": "https://www.google.com/"
+        "urltitle": "kylejackiehaircare.com",
+        "url": "https://www.kylejackiehaircare.com"
     },
     {
         "year": 2022,
         "title": "Before 7am",
         "descr": "lorem ipsum dolor sit amet 2",
-        "urltitle": "google.com",
-        "url": "https://www.google.com/"
+        "urltitle": "before7am.co",
+        "url": "https://before7am.co/"
     }
 ]
 projects.forEach(listProjects);
