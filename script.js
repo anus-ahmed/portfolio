@@ -2,7 +2,7 @@ var uiContainer = document.getElementById('projects');
 
 const projects = [
     {
-        "year": 2023,
+        "year": "In-development",
         "title": "UBL Retail Web Application",
         "descr": "lorem ipsum dolor sit amet",
         "urltitle": "google.com",
@@ -10,7 +10,35 @@ const projects = [
     },
     {
         "year": 2022,
-        "title": "UBL Retail Web Application 2",
+        "title": "Foodster Club",
+        "descr": "lorem ipsum dolor sit amet 2",
+        "urltitle": "google.com",
+        "url": "https://www.google.com/"
+    },
+    {
+        "year": 2022,
+        "title": "The A-Lyst",
+        "descr": "lorem ipsum dolor sit amet 2",
+        "urltitle": "google.com",
+        "url": "https://www.google.com/"
+    },
+    {
+        "year": 2022,
+        "title": "Kuchen Kompane",
+        "descr": "lorem ipsum dolor sit amet 2",
+        "urltitle": "google.com",
+        "url": "https://www.google.com/"
+    },
+    {
+        "year": 2022,
+        "title": "Kyle Jackie Haircare",
+        "descr": "lorem ipsum dolor sit amet 2",
+        "urltitle": "google.com",
+        "url": "https://www.google.com/"
+    },
+    {
+        "year": 2022,
+        "title": "Before 7am",
         "descr": "lorem ipsum dolor sit amet 2",
         "urltitle": "google.com",
         "url": "https://www.google.com/"
