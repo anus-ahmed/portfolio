@@ -4,7 +4,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  transition: all ease;
+  transition: all 0.1s ease;
 }
 
 body,
@@ -86,14 +86,19 @@ video {
   color: #212529;
 }
 
-.bolt{
-  animation:animate-bolt 2s infinite;
+.bolt {
+  animation: animate-bolt 2s infinite;
   animation-timing-function: ease-in-out;
 }
 
-@keyframes animate-bolt{
-  0%   { color:#29ff1a; }
-  100% { color:#2287c9; }
+@keyframes animate-bolt {
+  0% {
+    color: #29ff1a;
+  }
+
+  100% {
+    color: #2287c9;
+  }
 }
 
 .h1 {
@@ -163,16 +168,23 @@ video {
 .link-nostyle {
   text-decoration: none;
   color: inherit;
+  width: fit-content;
 }
 
 .link-underline {
   text-decoration: underline;
   color: inherit;
+  width: fit-content;
 }
 
 .link-colored {
   text-decoration: none;
   color: #2287c9;
+  width: fit-content;
+}
+
+.link-colored:hover i {
+  margin: 0 0 0 0.5rem;
 }
 
 .gradient-heading {
@@ -228,7 +240,7 @@ video {
   transition: transform 0.2s linear;
 }
 
-.checkbox:checked + .checkbox-label .ball {
+.checkbox:checked+.checkbox-label .ball {
   transform: translateX(24px);
 }
 
@@ -244,15 +256,18 @@ video {
 .intro-section .location-availability {
   margin: 1rem 0 0 0;
 }
+
 .intro-section .location-availability {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
 }
+
 .intro-section .sections-list {
   list-style: none;
   margin: 2rem 0 0 0;
 }
+
 .intro-section .sections-list li {
   margin: 0 0 0.5rem 0;
 }
@@ -261,9 +276,10 @@ video {
   margin: 1rem 0 0 0;
   padding: 0 0 0 1.5rem;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 0.5rem;
 }
+
 .projects-section .project-details .proj-title {
   display: flex;
   flex-wrap: wrap;
